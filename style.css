@@ -1,23 +1,50 @@
 @font-face {
   font-family: areo;
-  src: url(areoGX.ttf);
+  src: url(https://helenajabl.github.io/areoGX.ttf);
+}
+
+body {
+  background-color: #a5d5;
+  font-size: 500%;
+  font-family: areo;
+  background-image: radial-gradient(black, darkred);
+  background-size: cover;
+  opacity: 0.5;
 }
 
 @keyframes pjanim {
   0% {
-    font-size: 30px;
-    font-variation-settings: "wght" 400;
+    font-variation-settings: "wght" 100;
   }
   100% {
-    font-size: 32px;
-    font-variation-settings: "wght" 100;
+    font-variation-settings: "wght" 400;
   } 
 }
 
-    body {
-  animation: 3s infinite pjanim;
-  background-color: #a5d5;
-  font-family:areo;
-  font-variation-settings:
-    "wght" 400;
+h1 {
+  font-size: 1000%;
+  line-height: 0em;
+  background-color: white;
+  position: relative;
+  top: -1600px;
+  text-align: center;
+  animation: 7s infinite pjanim;
+  font-variation-settings: "wght" 400;
+}
+h2 {
+  font-size: 670%;
+  color: darkred;
+  box-color: black;
+  line-height: 0em;
+  text-shadow: 2px 8px 50px red;
+  position: relative;
+  top: -1700px;
+  text-align: center;
+  animation: 7s infinite pjanim;
+  font-variation-settings: "wght" 400;
+}
+img {
+  background-size: cover;
+  opacity: 0.4;
+  
 }
