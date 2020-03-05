@@ -15,9 +15,9 @@
 }
 
     body {
+  animation: 3s infinite pjanim;
   background-color: #a5d5;
   font-family:areo;
-  animation: 3s infinte pjanim;
   font-variation-settings:
     "wght" 400;
 }
