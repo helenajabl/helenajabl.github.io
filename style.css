@@ -47,12 +47,18 @@ img {
 }
 h3 {
   font-family: avenir;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 h4 {
   font-family: areo;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 h5 {
   font-family: avenir;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 
 
@@ -60,6 +66,8 @@ h6 {
  
   -webkit-column-count: 2;
   font-family: 'Cairo';
+  margin-right: 150px;
+  margin-left: 80px;
 }
 
 #humans {
