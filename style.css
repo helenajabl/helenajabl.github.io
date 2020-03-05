@@ -11,9 +11,13 @@
   100% {
     font-size: 40px;
     font-variation-settings: "wght" 100;
-  }
+  } 
 }
+
     body {
   background-color: #a5d5;
   font-family:areo;
+  animation: 3s infinte pjanim;
+  font-variation-settings:
+    "wght" 400;
 }
