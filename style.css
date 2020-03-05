@@ -13,10 +13,10 @@ body {
 
 @keyframes pjanim {
   0% {
-    font-variation-settings: "wght" 100 ;
+    font-variation-settings: "wdth" 100, "OPEN" 100;
   }
   100% {
-    font-variation-settings: "wght" 400;
+    font-variation-settings: "wdth" 400, "OPEN" 400;
   } 
 }
 
@@ -27,7 +27,7 @@ h1 {
   top: -1800px;
   text-align: center;
   animation: 7s infinite pjanim;
-  font-variation-settings: "wght" 400;
+  font-variation-settings: "wdth" 400, "OPEN" 400;
 }
 h2 {
   font-size: 670%;
@@ -38,7 +38,7 @@ h2 {
   top: -1900px;
   text-align: center;
   animation: 7s infinite pjanim;
-  font-variation-settings: "wght" 400;
+  font-variation-settings: "wdth" 400, "OPEN" 400;
 }
 img {
   background-size: cover;
