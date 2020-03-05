@@ -6,11 +6,11 @@
 @keyframes pjanim {
   0% {
     font-size: 30px;
-    font-variation-settings: "wght" 800, "wdth" 560;
+    font-variation-settings: "wght" 400;
   }
   100% {
     font-size: 40px;
-    font-variation-settings: "wght" 100, "wdth" 100;
+    font-variation-settings: "wght" 100;
   }
 }
     body {
