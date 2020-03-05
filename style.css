@@ -2,6 +2,16 @@
   font-family: areo;
   src: url(areoGX.ttf);
 }
+
+@keyframes pjanim {
+  0% {
+    font-size:30px;
+    font-variation-settings: "wght" 800, "wdth" 560;
+  }
+  100% {
+    font-size:40px;
+    font-variation-settings: "wght"100, "wdth"100;
+  }
     body {
   background-color: #a5d5;
   opacity: 0.5;
