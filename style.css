@@ -1,4 +1,8 @@
-body {
+@fontface {
+  font-family: areo;
+  src: url(areo.ttf);
+}
+    body {
   background-color: #a5d5;
   opacity: 0.5;
   font-family:arial;
