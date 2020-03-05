@@ -26,7 +26,7 @@ h1 {
   position: relative;
   top: -1800px;
   text-align: center;
-  animation: 7s infinite pjanim;
+  animation: 7s infinite loop pjanim;
 }
 h2 {
   font-size: 670%;
@@ -36,7 +36,7 @@ h2 {
   position: relative;
   top: -1900px;
   text-align: center;
-  animation: 7s infinite pjanim;
+  animation: 7s infinite loop pjanim;
 }
 img {
   background-size: cover;
